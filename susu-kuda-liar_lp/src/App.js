@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Brand from "./components/Brand";
+import Description from "./components/Description";
 import "./styles/app.css";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+      <Description />
       <Brand />
     </>
   )
