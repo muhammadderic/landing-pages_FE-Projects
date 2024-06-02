@@ -6,6 +6,7 @@ import Brand from "./components/Brand";
 import Description from "./components/Description";
 import Features from "./components/Features";
 import Benefits from "./components/Benefits";
+import CTA from "./components/CTA";
 import "./styles/app.css";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Description />
       <Features />
       <Benefits />
+      <CTA />
       <Brand />
     </>
   )
