@@ -9,6 +9,7 @@ import Benefits from "./components/Benefits";
 import CTA from "./components/CTA";
 import "./styles/app.css";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <CTA />
       <Blog />
       <Brand />
+      <Footer />
     </>
   )
 }
