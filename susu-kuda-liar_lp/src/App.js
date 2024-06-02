@@ -8,6 +8,7 @@ import Features from "./components/Features";
 import Benefits from "./components/Benefits";
 import CTA from "./components/CTA";
 import "./styles/app.css";
+import Blog from "./components/Blog";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Features />
       <Benefits />
       <CTA />
+      <Blog />
       <Brand />
     </>
   )
