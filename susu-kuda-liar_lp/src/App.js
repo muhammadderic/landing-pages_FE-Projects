@@ -4,8 +4,9 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Brand from "./components/Brand";
 import Description from "./components/Description";
-import "./styles/app.css";
 import Features from "./components/Features";
+import Benefits from "./components/Benefits";
+import "./styles/app.css";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       </div>
       <Description />
       <Features />
+      <Benefits />
       <Brand />
     </>
   )
