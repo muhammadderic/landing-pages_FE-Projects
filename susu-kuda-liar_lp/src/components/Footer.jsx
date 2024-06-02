@@ -5,11 +5,11 @@ import '../styles/footer.css';
 const Footer = () => (
   <div className="footer section__padding">
     <div className="footer-heading">
-      <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+      <h1 className="gradient__text">Ready to Embrace Tomorrow Ahead of the Pack? Dive into the Future with Susu Kuda Liar.</h1>
     </div>
 
     <div className="footer-btn">
-      <p>Request Early Access</p>
+      <p>Request A Horse</p>
     </div>
 
     <div className="footer-links">
