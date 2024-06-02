@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Brand from "./components/Brand";
 import Description from "./components/Description";
 import "./styles/app.css";
+import Features from "./components/Features";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Hero />
       </div>
       <Description />
+      <Features />
       <Brand />
     </>
   )
