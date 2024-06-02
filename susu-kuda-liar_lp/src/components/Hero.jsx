@@ -1,5 +1,5 @@
 import people from "../assets/people.png";
-import "../styles/header.css";
+import "../styles/hero.css";
 
 const Header = () => {
   return (

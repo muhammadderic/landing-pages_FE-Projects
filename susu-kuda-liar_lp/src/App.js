@@ -1,7 +1,7 @@
 import React from "react";
 
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Hero from "./components/Hero";
 import "./styles/app.css";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <div className="gradient__bg">
         <Navbar />
-        <Header />
+        <Hero />
       </div>
     </>
   )
